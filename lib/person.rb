@@ -75,19 +75,3 @@ class Person
 
 end
 
-
-# - The happiness and hygiene new_happiness should be able to change, however the maximum and minimum new_happiness for both happiness and hygiene should be 10 and  0 respectively
-
-# ##### Non-attribute defining instance methods
-
-# 3. The `take_bath` method should increment the person's hygiene new_happiness by four and return the string "♪ Rub-a-dub just relaxing in the tub ♫".
-
-# 4. The `work_out` method should increment the person's happiness by two new_happiness, decrease their hygiene by three new_happiness, and return the Queen lyrics, "♪ another one bites the dust ♫".
-
-# 5. The `call_friend` method should accept another instance of the Person class, or "friend". The method should increment the caller and the callee's happiness new_happiness by three. If Stella calls her friend Felix, the method should return "Hi Felix! It's Stella. How are you?"
-
-# 6. Finally, the `start_conversation` method should accept two arguments, the person to start a conversation with and the topic of conversation.
-#   * If the topic is politics, both people get sadder and the method returns "blah blah partisan blah lobbyist".
-#   * If the topic is weather, both people get a little happier and the method returns "blah blah sun blah rain".
-#   * If the topic is not politics or weather, their happiness new_happiness don't change and the method returns "blah blah blah blah blah".
-
